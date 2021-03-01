@@ -56,7 +56,7 @@ I would like to create description
 | Tech             | Description                | 
 | ---------------- | -------------------------- | 
 | Ruby             | Back-end (MVC)             | 
-| ActiveRecord     | Built-in ORM for Rails     | 
+| ActiveRecord     | Built-in ORM               | 
 | RSpec            | Ruby testing framework     | 
 | Capybara         | Feature testing framework  | 
 | POSTGRESQL       | Database Management System | 
