@@ -61,11 +61,9 @@ I would like to create description
 | RSpec            | Ruby testing framework     | 
 | Capybara         | Feature testing framework  | 
 | POSTGRESQL       | Database Management System | 
-| Travis           | CI Tool                    | 
-| Heroku           | App Hosting Service        | 
 
-## Databse Setup ##
 
+## Database Setup ##
 
 1. Connect to psql postgres
 2. Create a development database using the psql command CREATE DATABASE makersbnb; 
