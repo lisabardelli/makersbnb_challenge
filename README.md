@@ -50,18 +50,6 @@ I would like to create description
 4. Until a user has confirmed a booking request, that space can still be booked for that night (to be implemented)
 
 
-## Databse Setup ##
-
-Set up
-1. psql postgres
-2. \c makersbnb & makersbnb_test 
-3. ALTER TABLE spaces ADD available BOOLEAN DEFAULT TRUE; 
-4. ALTER TABLE users RENAME COLUMN password TO password_digest;
-5. ALTER TABLE spaces ADD description VARCHAR(250);
-6. ALTER TABLE spaces ADD price NUMERIC;
-7. add owners table (migrations)
-8. ALTER TABLE spaces ADD owner_id INT, ADD FOREIGN KEY(owner_id) REFERENCES owners(id);
-9. CREATE TABLE owners(id SERIAL PRIMARY KEY, name VARCHAR(30) NOT NULL, email VARCHAR(60) NOT NULL, password_digest VARCHAR(140) NOT NULL, username VARCHAR(30) NOT NULL); 
 
 ### Technologies used
 
@@ -75,6 +63,18 @@ Set up
 | POSTGRESQL       | Database Management System | 
 | Travis           | CI Tool                    | 
 | Heroku           | App Hosting Service        | 
+
+## Databse Setup ##
+
+
+1. Connect to psql postgres
+2. Create a development database using the psql command CREATE DATABASE makersbnb; 
+3. Run '01_create_spaces_table.sql'
+4. Run '02_create_users_table.sql'
+5. Run '03_create_booking_table.sql'
+6. Run '04_create_owner_table.sql'
+7. Complete above steps for CREATE DATABASE makersbnb_test;
+
 
 
 
