@@ -62,6 +62,27 @@ I would like to create description
 | POSTGRESQL       | Database Management System | 
 
 
+## How to run
+
+
+Clone this repo
+```
+https://github.com/lisabardelli/makersbnb_challenge.git
+```
+
+Move to the repo
+```
+cd makersbnb_challenge
+```
+
+Run locally
+
+```
+bundle exec rackup
+```
+
+
+
 ## Database Setup ##
 
 1. Connect to psql postgres
@@ -71,6 +92,18 @@ I would like to create description
 5. Run '03_create_booking_table.sql'
 6. Run '04_create_owner_table.sql'
 7. Complete above steps for CREATE DATABASE makersbnb_test;
+
+
+## **Home**
+![Home](home.png)
+## **Login **
+![Login](login.png)
+## **See all properties **
+![See all properties](spaces.png)
+## ** Reserve a space**
+![Reserve a space](reserve.png)
+## **Reservation confirmation**
+![Reservation confirmation](reservation.png)
 
 
 
