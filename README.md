@@ -96,11 +96,11 @@ bundle exec rackup
 
 ## **Home**
 ![Home](home.png)
-## **Login **
+## **Login**
 ![Login](login.png)
-## **See all properties **
+## **See all properties**
 ![See all properties](spaces.png)
-## ** Reserve a space**
+## **Reserve a space**
 ![Reserve a space](reserve.png)
 ## **Reservation confirmation**
 ![Reservation confirmation](reservation.png)
